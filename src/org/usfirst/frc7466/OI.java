@@ -42,13 +42,13 @@ public class OI
         //Motor Buton İlişkileri
         RB2.whileHeld(new ElevatorEncoder(Robot.cymurghsVp.ScalePid));
         LB2.whileHeld(new ElevatorEncoder(-Robot.cymurghsVp.ScalePid));
-        SRT2.whileHeld(new LedCommand());
-        A2.whileHeld(new ElevatorManuelCommand(1));
-        B2.whileHeld(new ElevatorManuelCommand(-1));
-        X2.whileHeld(new GripperClawCommand(1,1));
-        Y2.whileHeld(new GripperClawCommand(-1,1));
-        RB2.whileHeld(new GripperWristCommand(1));
-        LB2.whileHeld(new GripperWristCommand(-1));
+        SRT1.whileHeld(new LedCommand());
+        A1.whileHeld(new ElevatorManuelCommand(1));
+        B1.whileHeld(new ElevatorManuelCommand(-1));
+        X1.whileHeld(new GripperClawCommand(1,1));
+        Y1.whileHeld(new GripperClawCommand(-1,1));
+        RB1.whileHeld(new GripperWristCommand(1));
+        LB1.whileHeld(new GripperWristCommand(-1));
 
         /*if (secondary.getPOV() == 0){
             new ElevatorManuelCommand(1);

@@ -12,6 +12,7 @@ public class ElevatorManuel extends Subsystem {
     }
 
     public void move(double x){
+        //Motora
         RobotMap.elevatormotor1.set(x);
         RobotMap.elevatormotor2.set(-x);
     }

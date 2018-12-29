@@ -6,7 +6,6 @@ import org.usfirst.frc7466.RobotMap;
 
 
 public class ElevatorEncoder extends Command {
-
     double x;
     public ElevatorEncoder(double x) {
       this.x=x;
